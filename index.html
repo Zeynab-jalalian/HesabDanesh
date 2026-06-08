@@ -15,7 +15,7 @@
   </head>
   <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg custom-navbar">
+    <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">حساب دانش</a>
 
@@ -31,26 +31,26 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#">خانه</a>
+              <a class="nav-link active" href="#home">خانه</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">درباره من</a>
+              <a class="nav-link" href="#about">درباره من</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">خدمات</a>
+              <a class="nav-link" href="#resume">رزومه من</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">نمونه‌کارها</a>
+              <a class="nav-link" href="#service">خدمات</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">تماس با من</a>
+              <a class="nav-link" href="#contact">تماس با من</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!--hero-->
-    <section class="hero">
+    <section class="hero" id="home">
       <div class="container">
         <div class="row justify-content-center align-items-center min-vh-75">
           <div class="col-lg-8 text-center">
@@ -75,7 +75,7 @@
       </div>
     </section>
     <!--about me-->
-    <section class="about py-5">
+    <section class="about py-5" id="about">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-4 text-center">
@@ -108,7 +108,184 @@
         </div>
       </div>
     </section>
+    <!--resume-->
+    <section class="resume py-5" id="resume">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="resume-title">رزومه حرفه‌ای</h2>
+          <p>تجربیات، مهارت‌ها و سوابق حرفه‌ای</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="resume-box">
+              <h4>مهارت‌ها</h4>
+
+              <ul>
+                <li>اصول حسابداری</li>
+                <li>حسابداری مالی</li>
+                <li>اکسل پیشرفته</li>
+                <li>نرم‌افزار هلو</li>
+                <li>امور مالیاتی</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="resume-box">
+              <h4>سوابق کاری</h4>
+
+              <ul>
+                <li>۵ سال سابقه حسابداری</li>
+                <li>۳ سال تدریس حسابداری</li>
+                <li>مشاوره مالی شرکت‌ها</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="resume-box">
+              <h4>همکاری با شرکت‌ها</h4>
+
+              <ul>
+                <li>نام شرکت اول</li>
+                <li>نام شرکت دوم</li>
+                <li>نام شرکت سوم</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--services-->
+    <section class="services py-5" id="service">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="services-title">خدمات من</h2>
+          <p class="services-subtitle">
+            خدمات تخصصی در حوزه حسابداری و امور مالی
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <h4>آموزش اصول حسابداری</h4>
+              <p>
+                آموزش مفاهیم پایه و کاربردی حسابداری به زبان ساده و قابل فهم.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <h4>مشاوره مالی</h4>
+              <p>ارائه راهکارهای مالی برای بهبود مدیریت درآمد و هزینه‌ها.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <h4>امور مالیاتی</h4>
+              <p>راهنمایی و مشاوره در زمینه قوانین و اظهارنامه‌های مالیاتی.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--contact-->
+    <section class="contact-section" id="contact" itemid="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-header">
+            <h2>تماس با من</h2>
+            <p>
+              برای دریافت مشاوره و ارتباط مستقیم از طریق راه‌های زیر با من در
+              تماس باشید.
+            </p>
+          </div>
+
+          <div class="row g-4 text-center">
+            <div class="col-md-6 col-lg-3">
+              <div class="contact-item">
+                <h5>شماره تماس</h5>
+                <p>0912xxxxxxx</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="contact-item">
+                <h5>تلگرام</h5>
+                <p>@username</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="contact-item">
+                <h5>بله</h5>
+                <p>@username</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="contact-item">
+                <h5>ایمیل</h5>
+                <p>example@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="footer mt-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-4 mb-4">
+            <h5 class="footer-title">محمدصادق جلالیان</h5>
+            <p class="footer-text">
+              آموزش و خدمات حسابداری، مشاوره مالی و مالیاتی برای کسب‌وکارها و
+              افراد.
+            </p>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <h5 class="footer-title">لینک‌ها</h5>
+            <ul class="footer-links">
+              <li><a href="#">خانه</a></li>
+              <li><a href="#about">درباره من</a></li>
+              <li><a href="#service">خدمات</a></li>
+              <li><a href="#contact">تماس با من</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <h5 class="footer-title">ارتباط</h5>
+            <p class="footer-text">0912xxxxxxx</p>
+            <p class="footer-text">example@gmail.com</p>
+            <p class="footer-text">@telegram</p>
+          </div>
+        </div>
+
+        <div class="text-center py-3 border-top border-secondary">
+          <small>© 2026 تمام حقوق محفوظ است</small>
+        </div>
+      </div>
+    </footer>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script>
+      document
+        .querySelectorAll(".navbar-nav .nav-link")
+        .forEach(function (link) {
+          link.addEventListener("click", function () {
+            var navbarCollapse = document.querySelector(".navbar-collapse");
+            var bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+
+            if (bsCollapse) {
+              bsCollapse.hide();
+            }
+          });
+        });
+    </script>
   </body>
 </html>
