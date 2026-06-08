@@ -1,0 +1,128 @@
+body {
+  font-family: "Lalezar", sans-serif;
+  direction: rtl;
+}
+/*navbar*/
+.custom-navbar {
+  background-color: #0f172a;
+  padding: 12px 0;
+}
+
+.custom-navbar .navbar-brand {
+  color: #d4af37 !important;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.custom-navbar .nav-link {
+  color: #ffffff !important;
+  font-size: 1.1rem;
+  margin: 0 8px;
+  transition: all 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #d4af37 !important;
+}
+
+/* Hamburger Button */
+.navbar-toggler {
+  border-color: #d4af37;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* Golden Hamburger Icon */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(212,175,55,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2.5' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Mobile Menu */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    margin-top: 10px;
+  }
+
+  .navbar-nav {
+    text-align: right;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 0;
+  }
+}
+
+/* Hero Section */
+.hero {
+  min-height: 85vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  align-items: center;
+}
+
+.hero-title {
+  color: #d4af37;
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.hero-text {
+  color: #cbd5e1;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  line-height: 2;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.hero-btn {
+  background: #d4af37;
+  color: #0f172a;
+  padding: 12px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.hero-btn-outline {
+  border: 2px solid #d4af37;
+  color: #d4af37;
+  padding: 12px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.hero-btn:hover,
+.hero-btn-outline:hover {
+  background: #d4af37;
+  color: #0f172a;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 70vh;
+    padding: 40px 0;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-btn,
+  .hero-btn-outline {
+    width: 220px;
+    text-align: center;
+  }
+}

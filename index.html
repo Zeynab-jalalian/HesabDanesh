@@ -1,18 +1,79 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Estedad:wght@100..900&family=Lalezar&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>حسابداری</title>
   </head>
   <body>
-    <div class="container mt-5">
-      <h1 class="text-primary">Bootstrap نصب شده است</h1>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">حساب دانش</a>
 
-      <button class="btn btn-success">دکمه تست</button>
-    </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">خانه</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">درباره من</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">خدمات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">نمونه‌کارها</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">تماس با من</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--hero-->
+    <section class="hero">
+      <div class="container">
+        <div class="row justify-content-center align-items-center min-vh-75">
+          <div class="col-lg-8 text-center">
+            <h1 class="hero-title">آموزش اصول حسابداری</h1>
+
+            <p class="hero-text">
+              من محمدصادق جلالیان هستم. با ارائه آموزش‌های کاربردی و انتقال
+              تجربیات عملی، به شما کمک می‌کنم مفاهیم حسابداری را به شکلی ساده،
+              قابل فهم و متناسب با نیازهای بازار کار فرا بگیرید و مسیر حرفه‌ای
+              خود را با اطمینان بیشتری ادامه دهید.
+            </p>
+
+            <div class="mt-4">
+              <a href="#contact" class="hero-btn"> تماس با من </a>
+
+              <a href="#services" class="hero-btn-outline me-2">
+                مشاهده خدمات
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
