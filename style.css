@@ -146,6 +146,15 @@ section {
     text-align: center;
   }
 }
+
+.img-fluid {
+  width: 200px;
+  height: 200px;
+}
+.img-fluid-footer {
+  width: 200px;
+  height: 200px;
+}
 /*resume*/
 .resume {
   background: #f8fafc;
