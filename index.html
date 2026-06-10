@@ -349,18 +349,16 @@
     </footer>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>
-      document
-        .querySelectorAll(".navbar-nav .nav-link")
-        .forEach(function (link) {
-          link.addEventListener("click", function () {
-            var navbarCollapse = document.querySelector(".navbar-collapse");
-            var bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+      document.querySelectorAll(".offcanvas .nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          const offcanvasEl = document.getElementById("mobileMenu");
+          const offcanvas = bootstrap.Offcanvas.getInstance(offcanvasEl);
 
-            if (bsCollapse) {
-              bsCollapse.hide();
-            }
-          });
+          if (offcanvas) {
+            offcanvas.hide();
+          }
         });
+      });
     </script>
   </body>
 </html>
