@@ -87,6 +87,33 @@ section {
     display: none !important;
   }
 }
+@media (min-width: 992px) {
+  .custom-navbar .container {
+    display: flex;
+    align-items: center;
+  }
+
+  /* لوگو سمت چپ */
+  .navbar-brand {
+    order: 1;
+    margin-right: 0;
+  }
+
+  /* بخش منو */
+  .navbar-collapse {
+    order: 0;
+    flex-grow: 1;
+    display: flex !important;
+    justify-content: flex-end;
+  }
+
+  /* ul منو */
+  .desktop-nav {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 0;
+  }
+}
 /* Hero Section */
 .hero {
   padding-top: 50px;

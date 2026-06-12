@@ -21,16 +21,7 @@
     <!--navbar-->
     <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#" style="color: #d4af37">
-          <img
-            src="logo.png"
-            alt="حساب دانش"
-            class="img-header rounded-4 shadow"
-            width="80px"
-            height="80px"
-          />
-        </a>
-
+        <!-- دکمه موبایل -->
         <button
           class="navbar-toggler"
           type="button"
@@ -40,11 +31,15 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- منوی دسکتاپ -->
-        <div class="collapse navbar-collapse d-none d-lg-flex">
-          <ul class="desktop-nav navbar-nav me-auto">
-            <li class="nav-item"><a class="nav-link" href="#home">خانه</a></li>
-
+        <!-- دسکتاپ -->
+        <div
+          class="collapse navbar-collapse d-none d-lg-flex justify-content-between"
+        >
+          <!-- منو سمت راست -->
+          <ul class="desktop-nav navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">خانه</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#resume">دوره های آموزشی</a>
             </li>
@@ -58,7 +53,29 @@
               <a class="nav-link" href="#contact">تماس با ما</a>
             </li>
           </ul>
+
+          <!-- لوگو سمت چپ -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="logo.png"
+              alt="حساب دانش"
+              class="img-header rounded-4 shadow"
+              width="80"
+              height="80"
+            />
+          </a>
         </div>
+
+        <!-- لوگو در موبایل -->
+        <a class="navbar-brand d-lg-none" href="#">
+          <img
+            src="logo.png"
+            alt="حساب دانش"
+            class="img-header rounded-4 shadow"
+            width="80"
+            height="80"
+          />
+        </a>
 
         <!-- منوی موبایل -->
         <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu">
