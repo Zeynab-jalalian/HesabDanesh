@@ -65,11 +65,23 @@ section {
 .offcanvas .navbar-nav {
   gap: 5px;
 }
-
+.navbar-nav {
+  background: linear-gradient(45deg, #d4af37, transparent);
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 20px;
+}
+.navbar-nav li:hover a {
+  text-decoration: underline;
+}
 .offcanvas-backdrop.show {
   opacity: 0.4;
 }
-
+.img-header {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
 @media (min-width: 992px) {
   .offcanvas {
     display: none !important;
@@ -77,6 +89,7 @@ section {
 }
 /* Hero Section */
 .hero {
+  padding-top: 50px;
   min-height: 85vh;
   background: linear-gradient(135deg, #0f172a, #1e293b);
   display: flex;
@@ -85,7 +98,7 @@ section {
 
 .hero-title {
   color: #d4af37;
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: 2.8rem;
   margin-bottom: 20px;
   line-height: 1.4;
 }
@@ -94,7 +107,7 @@ section {
   color: #cbd5e1;
   font-size: clamp(1rem, 2vw, 1.3rem);
   line-height: 2;
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
