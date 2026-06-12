@@ -65,7 +65,7 @@ section {
 .offcanvas .navbar-nav {
   gap: 5px;
 }
-.navbar-nav {
+.desktop-nav {
   background: linear-gradient(45deg, #d4af37, transparent);
   padding: 20px;
   border: 1px solid #333;
