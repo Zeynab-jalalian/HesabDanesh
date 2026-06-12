@@ -159,6 +159,11 @@ section {
     width: 220px;
     text-align: center;
   }
+  .img-header {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
 }
 
 .img-fluid {
