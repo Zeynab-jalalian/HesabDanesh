@@ -164,6 +164,9 @@ section {
     height: 80px;
     object-fit: cover;
   }
+  .hero-text {
+    max-width: 600px;
+  }
 }
 
 .img-fluid {
